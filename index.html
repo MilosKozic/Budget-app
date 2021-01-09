@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div>
+            <h2 id="head">Net income in January 2021:</h2>
+            <p id="netSum"></p>
+            <div id="sum">
+                <p id="phSum"></p>
+                <p id="rhSum"></p>
+            </div>
+        </div>
+    </header>
+    <div id="dropdown">
+        <select name="" id="select">
+            <option value="default"> + / -</option>
+            <option value="Income">Income </option>
+            <option value="Expense">Expense</option>
+        </select>
+        <input type="text" id="opis" placeholder="Description...">
+        <input type="number" id="amount">
+        <button id="button">&#10003;</button>
+    </div>
+
+     <div id="flex-container">
+         <div id="flex1">
+            <p id="inc">Income:</p>
+            <hr>
+            <ul id="income"></ul>
+         </div>
+         <div id="flex2">
+            <p id="exp">Expense:</p>
+            <hr>
+            <ul id="expense"></ul>
+         </div>
+     </div>
+<script src="./acc.js"></script>
+</body>
+
+</html>
